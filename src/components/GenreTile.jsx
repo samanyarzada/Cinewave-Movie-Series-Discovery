@@ -2,7 +2,7 @@ import { ArrowUpRight, Clapperboard, Drama, Ghost, Heart, Orbit, Puzzle, Rocket,
 import { Link } from 'react-router-dom';
 
 const genreIcons = { Action: Swords, Animation: WandSparkles, Comedy: Clapperboard, Crime: Puzzle, Drama, Fantasy: WandSparkles, History: Clapperboard, Horror: Ghost, Mystery: Puzzle, Romance: Heart, 'Sci-Fi': Orbit, Thriller: Rocket, Adventure: Rocket };
-const genreColors = ['#c87e5b', '#8175c6', '#829b78', '#b5a16b', '#6d9ca7', '#bf718a'];
+const genreColors = ['#c87e5b', '#8175c6', '#9b8e78', '#b5a16b', '#6d9ca7', '#bf718a'];
 
 export default function GenreTile({ genre, index = 0, count = 0 }) {
   const Icon = genreIcons[genre] || Clapperboard;
